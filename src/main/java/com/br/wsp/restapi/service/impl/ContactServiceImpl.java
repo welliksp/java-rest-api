@@ -33,9 +33,12 @@ public class ContactServiceImpl implements ContactService {
 	}
 
 	
+	
+
 	@Override
-	public Contact delete() {
-		return this.contactRepository.deleteAll();
+	public Contact delete(Contact contact) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

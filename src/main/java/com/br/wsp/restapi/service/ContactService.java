@@ -10,6 +10,5 @@ public interface ContactService {
 	public Contact findById(String contactId);
 	public Contact create(Contact contact);
 	public Contact delete(Contact contact);
-	public Contact delete();
 
 }
